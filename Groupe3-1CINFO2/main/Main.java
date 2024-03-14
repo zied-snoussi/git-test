@@ -10,7 +10,7 @@ public class Main {
             System.out.print(tableau[i] + " ");
         }
         System.out.println();
-        String chaine = "Engage le jeu que je le gagne";
-        System.out.println(Operation.estPalindrome(chaine));
+        System.out.println(Operation.estPalindrome("12321"));
+        System.out.println(Operation.estPalindrome("123212"));
     }
 }
