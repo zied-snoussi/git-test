@@ -87,8 +87,10 @@ public class Operation {
     // Method to display all persons
     public void afficherPersonnes() {
         Person[] personnes = this.getPersons();
+        System.out.println("---------------------------------------------------------------");
         for (Person personne : personnes) {
             System.out.println(personne);
+            System.out.println("---------------------------------------------------------------");
         }
     }
 
@@ -97,7 +99,7 @@ public class Operation {
         chaine = chaine.toLowerCase().replaceAll("[^a-z0-9]", "");
         int n = chaine.length();
         for (int i = 0; i < n / 2; i++) {
-            if (chaine.charAt(i)!= chaine.charAt(n - i - 1)) {
+            if (chaine.charAt(i) != chaine.charAt(n - i - 1)) {
                 return false;
             }
         }
