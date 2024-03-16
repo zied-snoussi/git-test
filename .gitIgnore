@@ -1,0 +1,23 @@
+# ignore all files .class
+*.class
+
+# ignore all files .jar
+*.jar
+
+# ignore all files .war
+*.war
+
+# ignore all files .ear
+*.ear
+
+# ignore all files .zip
+*.zip
+
+# ignore all files .tar
+*.tar
+
+# ignore all files .gz
+*.gz
+
+# ignore all files .rar
+*.rar
