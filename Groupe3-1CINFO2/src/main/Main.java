@@ -5,7 +5,9 @@ import entity.Person;
 
 public class Main {
         public static void main(String[] args) {
-                System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++Start+++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n++++++++++++++++++++++++++++++++++++++++++++Start+++++++++++++++++++++++++++++++++++++++++\n");
+
                 // Creation of persons with diverse attributes
                 Person p1 = new Person(1, "Ali", "Ahmed", 25, "Tunis", "12345678", "ali.ahmed@gmail.com", "012345678",
                                 "123456789", "Developer", "Active", "I am a developer");
@@ -16,30 +18,40 @@ public class Main {
 
                 // Initialize the operation with an array of persons
                 Operation op = new Operation(new Person[] { p1, p2, p3 });
-            
+
                 // Display the list of persons
                 op.afficherPersonnes();
-                System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+
                 // Sort the persons in alphabetical order and display the sorted list
                 System.out.println("Sort by alphabetical order:");
                 op.trierParOrdreAlphabetique();
                 op.afficherPersonnes();
-                System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+
                 // Sort the persons by age and display the sorted list
                 System.out.println("Sort by age:");
                 op.trierParOrdreAge();
                 op.afficherPersonnes();
-                System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+
                 // Sort the persons in ascending order and display the sorted list
                 System.out.println("Sort in ascending order:");
                 op.trierParOrdreCroissant();
                 op.afficherPersonnes();
-                System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+
                 // Sort the persons in descending order and display the sorted list
                 System.out.println("Sort in descending order:");
                 op.trierParOrdreDecroissant();
                 op.afficherPersonnes();
-                System.out.println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+                System.out.println(
+                                "\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+          
                 // Check if various strings are palindromes
                 System.out.println("Is '12321' a palindrome? " + Operation.estPalindrome("12321"));
                 System.out.println("Is '123212' a palindrome? " + Operation.estPalindrome("123212"));
