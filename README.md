@@ -1,4 +1,8 @@
-# Git Test
+<h1 align="center" style="color:red">Git Test</h1>
+
+<div align="center">
+  <img src="./GITHUB.jpeg" alt="Github" width="100%"/>
+</div>
 
 ## Description
 
@@ -6,18 +10,17 @@ This repository serves as a testbed for learning and practicing Git and GitHub w
 
 ## Table of Contents
 
-- [Git Test](#git-test)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Using GitHub and Git](#using-github-and-git)
-    - [How to Use GitHub](#how-to-use-github)
-    - [Resolving Conflicts](#resolving-conflicts)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Using GitHub and Git](#using-github-and-git)
+  - [How to Use GitHub](#how-to-use-github)
+  - [Resolving Conflicts](#resolving-conflicts)
 
 ## Getting Started
 
