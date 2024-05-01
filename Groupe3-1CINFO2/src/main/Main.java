@@ -58,15 +58,4 @@ public class Main {
                 System.out.println("Is 'racecar' a palindrome? " + Operation.estPalindrome("racecar"));
                 System.out.println("Is 'hello' a palindrome? " + Operation.estPalindrome("hello"));
                 System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++++++++++End++++++++++++++++++++++++++++++++++\n");
-        }
- public static void main(String[] args) {
-        List<Integer> liste = new ArrayList<>();
-        liste.add(10);
-        liste.add(20);
-        liste.add(30);
-
-        int somme = Calcul.sommeListe(liste);
-        System.out.println("La somme est : " + somme);
-    }
-    }
-}
+      
