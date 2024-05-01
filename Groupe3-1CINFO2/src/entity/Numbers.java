@@ -15,9 +15,12 @@ public class Numbers {
         return n % 2 == 0;
     }
 
-    boolean verifierNombrePremier() {
-        for (int i = 2; i < n; i++) {
-            if (n % i == 0) {
+    boolean verifierNombrePremier(int number) {
+        if (number <= 1) {
+            return false;
+        }
+        for (int j = 2; j <= Math.sqrt(number); j++) {
+            if (number % j == 0) {
                 return false;
             }
         }
