@@ -13,12 +13,12 @@ public class Numbers {
     boolean verifierNombrePair (int n){
       return n % 2 == 0;
     }
-    boolean verifierNombrePremier(){
+    boolean verifierNombrePremier(int nombre){
         if (nombre <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(nombre); i++) {
-            if (nombre % i == 0) {
+        for (int j = 2; j <= Math.sqrt(nombre);j++) {
+            if (nombre % j == 0) {
                 return false;
             }
         }
