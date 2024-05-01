@@ -1,10 +1,10 @@
 public class Numbers {
-    int calculFactorielle (int n){
-        if (n == 0) {
+    int calculFactorielle (int x){
+        if (x == 0) {
             return 1;
         } else {
             int res = 1;
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= x; i++) {
                 res *= i;
             }
             return res;
