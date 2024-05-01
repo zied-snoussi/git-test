@@ -58,5 +58,4 @@ public class Main {
                 System.out.println("Is 'racecar' a palindrome? " + Operation.estPalindrome("racecar"));
                 System.out.println("Is 'hello' a palindrome? " + Operation.estPalindrome("hello"));
                 System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++++++++++End++++++++++++++++++++++++++++++++++\n");
-        }
-}
+      
